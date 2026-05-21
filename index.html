@@ -12,7 +12,7 @@
 </head>
 <body>
     <header class="site-header" data-header>
-        <a class="brand" href="#top" aria-label="Deploy-Hub inicio">
+        <a class="brand" href="#top" aria-label="Deploy-Hub início">
             <span class="brand-mark" aria-hidden="true">
                 <svg viewBox="0 0 24 24" role="img">
                     <path d="M12 2.2c-5.5 0-10 4.5-10 10 0 4.4 2.9 8.2 6.9 9.5.5.1.7-.2.7-.5v-1.8c-2.8.6-3.4-1.2-3.4-1.2-.5-1.1-1.1-1.4-1.1-1.4-.9-.6.1-.6.1-.6 1 .1 1.6 1.1 1.6 1.1.9 1.5 2.3 1.1 2.9.8.1-.7.4-1.1.6-1.3-2.2-.3-4.6-1.1-4.6-4.9 0-1.1.4-2 1.1-2.7-.1-.3-.5-1.3.1-2.7 0 0 .9-.3 2.8 1a9.9 9.9 0 0 1 5.1 0c1.9-1.3 2.8-1 2.8-1 .6 1.4.2 2.4.1 2.7.7.7 1.1 1.6 1.1 2.7 0 3.8-2.3 4.6-4.6 4.9.4.3.7.9.7 1.8v2.6c0 .3.2.6.7.5 4-1.3 6.8-5.1 6.8-9.5 0-5.5-4.5-10-10-10Z"/>
@@ -27,7 +27,7 @@
             <span></span>
         </button>
 
-        <nav class="nav-links" id="primary-nav" data-nav aria-label="Navegacao principal">
+        <nav class="nav-links" id="primary-nav" data-nav aria-label="Navegação principal">
             <a href="#como-funciona">Como funciona</a>
             <a href="#instalar">Instalar</a>
             <a href="#yaml">deploy.yaml</a>
@@ -65,8 +65,8 @@
                 <p class="eyebrow">CLI em Go para deploys via SSH</p>
                 <h1 id="hero-title">Deploy-Hub</h1>
                 <p class="hero-copy">
-                    Organize servidores, servicos e comandos em um unico <code>deploy.yaml</code>.
-                    Depois execute deploys pelo terminal com um fluxo rapido, direto e interativo.
+                    Organize servidores, serviços e comandos em um único <code>deploy.yaml</code>.
+                    Depois execute deploys pelo terminal com um fluxo rápido, direto e interativo.
                 </p>
                 <div class="hero-actions">
                     <a class="button primary" href="#instalar">Baixar agora</a>
@@ -76,41 +76,41 @@
         </section>
 
         <section class="metrics-band" aria-label="Resumo do projeto">
-            <div><strong>SSH</strong><span>execucao remota</span></div>
-            <div><strong>YAML</strong><span>configuracao versionavel</span></div>
-            <div><strong>Go</strong><span>binario leve</span></div>
+            <div><strong>SSH</strong><span>execução remota</span></div>
+            <div><strong>YAML</strong><span>configuração versionável</span></div>
+            <div><strong>Go</strong><span>binário leve</span></div>
             <div><strong>CLI</strong><span>uso direto no terminal</span></div>
         </section>
 
         <section class="section" id="como-funciona">
             <div class="section-heading reveal">
                 <p class="eyebrow">Como funciona</p>
-                <h2>Do arquivo de configuracao ao deploy remoto.</h2>
-                <p>O Deploy-Hub le o <code>deploy.yaml</code>, encontra o servico escolhido, abre uma conexao SSH no servidor associado e executa os comandos na ordem definida.</p>
+                <h2>Do arquivo de configuração ao deploy remoto.</h2>
+                <p>O Deploy-Hub lê o <code>deploy.yaml</code>, encontra o serviços escolhido, abre uma conexão SSH no servidor associado e executa os comandos na ordem definida.</p>
             </div>
 
             <div class="steps">
                 <article class="step-card reveal">
                     <span class="step-number">01</span>
                     <h3>Configure servidores</h3>
-                    <p>Cadastre host, usuario, porta e autenticacao em uma estrutura clara dentro do YAML.</p>
+                    <p>Cadastre host, usuário, porta e autenticação em uma estrutura clara dentro do YAML.</p>
                 </article>
                 <article class="step-card reveal">
                     <span class="step-number">02</span>
-                    <h3>Defina servicos</h3>
-                    <p>Cada servico aponta para um servidor, um diretorio remoto e uma lista de comandos.</p>
+                    <h3>Defina serviços</h3>
+                    <p>Cada serviços aponta para um servidor, um diretório remoto e uma lista de comandos.</p>
                 </article>
                 <article class="step-card reveal">
                     <span class="step-number">03</span>
                     <h3>Execute pelo terminal</h3>
-                    <p>Rode <code>deployhub deploy nome-do-servico</code> ou escolha interativamente.</p>
+                    <p>Rode <code>deployhub deploy nome-do-serviço</code> ou escolha interativamente.</p>
                 </article>
             </div>
         </section>
 
         <section class="section install-section" id="instalar">
             <div class="section-heading reveal">
-                <p class="eyebrow">Instalacao</p>
+                <p class="eyebrow">Instalação</p>
                 <h2>Baixe e instale com um comando.</h2>
                 <p>Escolha seu sistema operacional, copie o comando e execute no terminal.</p>
             </div>
@@ -121,7 +121,7 @@
                         <span class="os-icon">W</span>
                         <div>
                             <h3>Windows PowerShell</h3>
-                            <p>Instala o binario em <code>%USERPROFILE%\go\bin</code> e adiciona ao PATH do usuario.</p>
+                            <p>Instala o binário em <code>%USERPROFILE%\go\bin</code> e adiciona ao PATH do usuário.</p>
                         </div>
                     </div>
                     <div class="code-box">
@@ -135,7 +135,7 @@
                         <span class="os-icon">L</span>
                         <div>
                             <h3>Linux</h3>
-                            <p>Baixa o binario, aplica permissao de execucao e move para <code>/usr/local/bin</code>.</p>
+                            <p>Baixa o binário, aplica permissão de execução e move para <code>/usr/local/bin</code>.</p>
                         </div>
                     </div>
                     <div class="code-box">
@@ -150,8 +150,8 @@
             <div class="yaml-copy reveal">
                 <p class="eyebrow">deploy.yaml</p>
                 <h2>Um mapa simples para seus deploys.</h2>
-                <p>A configuracao fica junto do projeto. Voce controla nomes amigaveis para servidores, caminhos remotos e a sequencia exata de comandos.</p>
-                <a class="button secondary dark" href="https://github.com/HTTPauloGoncalves/Deploy-Hub" target="_blank" rel="noreferrer">Abrir repositorio</a>
+                <p>A configuração fica junto do projeto. Você controla nomes amigáveis para servidores, caminhos remotos e a sequência exata de comandos.</p>
+                <a class="button secondary dark" href="https://github.com/HTTPauloGoncalves/Deploy-Hub" target="_blank" rel="noreferrer">Abrir repositório</a>
             </div>
 
             <div class="yaml-preview reveal" aria-label="Exemplo de deploy.yaml">
@@ -179,7 +179,7 @@ services:
 
     <footer class="footer">
         <span>Deploy-Hub</span>
-        <span>Feito para deploys simples, rastreaveis e repetiveis.</span>
+        <span>Feito para deploys simples, rastreáveis e repetíveis.</span>
     </footer>
 
     <div class="toast" data-toast role="status" aria-live="polite">Comando copiado</div>
